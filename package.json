@@ -1,0 +1,17 @@
+{
+  "name": "IMDB-Scrapper",
+  "version": "0.0.1",
+  "description": "Scrape IMDB",
+  "main": "server.js",
+  "author": "Hawk",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "google-search-scraper": "0.0.3",
+    "request": "^2.81.0"
+  }
+}
